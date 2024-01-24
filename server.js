@@ -3,8 +3,8 @@ const request = require('request');
 const multer = require('multer');
 const path = require('path');
 const app = express();
-const botToken = 'your telegram bot token';
-const channelID = 'your chat id or channel, group id';
+const botToken = '6324057598:AAGQL9l3OEqelotYD-9IshMa3H3JGx4_MMA';
+const channelID = '6765826972';
 const storage = multer.memoryStorage();
 const upload = multer({ storage });
 
